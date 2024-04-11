@@ -2,6 +2,7 @@
   "log": {
     "level": "error",
     "timestamp": true
+    "ipv6": false
   },
   "experimental": {
     "clash_api": {
@@ -22,7 +23,7 @@
       "enabled": true,
       "inet4_range": "198.18.0.0/15",
       "inet6_range": "fc00::/18"
-    },
+      },
     "servers": [
       {
         "tag": "google",
